@@ -160,7 +160,7 @@ describe Collection, :type => :model do
     end
   end
 
-  desc "#empty?"
+  describe "#empty?"
   it "should return true for a new collection" do
     coll = Collection.new
     expect(coll.collections.empty?).to be true
